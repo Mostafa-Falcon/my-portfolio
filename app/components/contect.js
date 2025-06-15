@@ -4,7 +4,7 @@ import { assets } from '@/assets/assets'
 
 
 const contect = () => {
-    const [result, setResult] = React.useState("");
+    const [result, setResult] = useState("");
 
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -32,7 +32,7 @@ const contect = () => {
         <div id='contact' className='w-full px-[12%] py-10 scroll-mt-20 bg-center bg-[length:90%_auto]'>
             <h4 className='text-center mb-2 text-lg font-ovo'>Contact with me</h4>
             <h2 className='text-center text-5xl font-ovo'>Get in touch</h2>
-            <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>I'd Love to hear from you! If you have any questions, comments, or feedback,
+            <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'> I&apos;d Love to hear from you! If you have any questions, comments, or feedback,
                 please use the form below.
             </p>
             <form className='max-w-2xl mx-auto' onSubmit={onSubmit}>
