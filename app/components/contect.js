@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { assets } from '@/assets/assets'
 
 
-const contect = () => {
+const Contect = () => {
     const [result, setResult] = useState("");
 
     const onSubmit = async (event) => {
@@ -57,4 +57,4 @@ const contect = () => {
     )
 }
 
-export default contect
+export default Contect
