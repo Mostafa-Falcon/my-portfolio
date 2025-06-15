@@ -8,7 +8,7 @@ const Header = () => {
             <div>
                 <Image src={assets.logo} className='rounded-full w-23' alt='' />
             </div>
-            <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>Hi! I'm Mostafa Falcon
+            <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>Hi! I&apos;m Mostafa Falcon
                 <Image src={assets.hand_icon} className='w-6' alt='' /></h3>
             <h1 className='text-3xl sm:text-5xl lg:text-[50px] front-ovo'>Mobile Application & Full-stack web developer, based in Egypt.</h1>
             <p className='max-w-2xl mx-auto front-ovo'>Iam a Mobile Application and full-stack web developer from alexandria, Egy with 3 years of experience</p>
