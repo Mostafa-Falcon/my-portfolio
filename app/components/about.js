@@ -12,10 +12,10 @@ const about = () => {
           <Image src={assets.user_image} className='w-full rounded-3xl' alt='user' />
         </div>
         <div className='flex-1'>
-          <p className='mb-10 max-w-2xl front-ovo'> I'm a full-stack developer with a passion for crafting intuitive mobile and web applications.
+          <p className='mb-10 max-w-2xl font-ovo'>  I&apos;m a full-stack developer with a passion for crafting intuitive mobile and web applications.
             I use Flutter to build cross-platform mobile apps, and Next.js + TailwindCSS for fast, responsive websites.
             I focus on clean code, scalable solutions, and a great user experience.
-            Whether you're a startup or an established business, I can help bring your ideas to life.
+            Whether you&apos;re a startup or an established business, I can help bring your ideas to life.
           </p>
           <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
             {infoList.map(({ icon, iconDark, title, description }, index) => {
